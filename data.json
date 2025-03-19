@@ -1,0 +1,571 @@
+{
+    "intents": [
+        {
+            "tag": "chaohoi",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Xin chào",
+                "Chào bạn",
+                "Chào",
+                "Hê lô",
+                "Chào cậu",
+                "Hi bạn",
+                "Chào mừng"
+            ],
+            "responses": [
+                "Chào bạn!",
+                "Xin chào!",
+                "Rất vui được gặp bạn!",
+                "Chào mừng bạn đến với chatbot!",
+                "Chúng tôi luôn sẵn sàng hỗ trợ bạn!",
+                "Chào bạn, hôm nay bạn cần hỗ trợ gì?"
+            ]
+        },
+        {
+            "tag": "tambiet",
+            "patterns": [
+                "Bye",
+                "Tạm biệt",
+                "Hẹn gặp lại",
+                "Goodbye",
+                "Chào tạm biệt",
+                "Cảm ơn, hẹn gặp lại",
+                "Hẹn gặp bạn lần sau",
+                "Tạm biệt bạn"
+            ],
+            "responses": [
+                "Tạm biệt! Hẹn gặp lại bạn sau!",
+                "Chúc bạn một ngày tốt lành!",
+                "Hẹn gặp lại bạn!",
+                "Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi!",
+                "Mong được phục vụ bạn lần sau!",
+                "Tạm biệt, hy vọng sớm được gặp lại bạn!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Cảm ơn",
+                "Cảm ơn bạn",
+                "Thank you",
+                "Thanks",
+                "Cảm ơn nhiều",
+                "Rất cảm ơn",
+                "Biết ơn bạn",
+                "Cảm ơn rất nhiều"
+            ],
+            "responses": [
+                "Không có gì!",
+                "Rất vui được giúp bạn!",
+                "Bạn không cần phải cảm ơn đâu!",
+                "Rất hân hạnh hỗ trợ bạn!",
+                "Chúng tôi luôn ở đây để hỗ trợ bạn!",
+                "Cảm ơn bạn đã tin tưởng chúng tôi!"
+            ]
+        },
+        {
+            "tag": "laptop",
+            "patterns": [
+                "Tôi muốn biết thông tin về laptop",
+                "Laptop nào tốt?",
+                "Tư vấn giúp tôi chọn laptop",
+                "Laptop nào đáng mua?",
+                "Thông tin về các dòng laptop"
+            ],
+            "responses": [
+                "Có rất nhiều dòng laptop tốt như Dell, HP, Lenovo, Asus và MSI, tùy thuộc vào nhu cầu sử dụng của bạn.",
+                "Laptop tốt phụ thuộc vào mục đích sử dụng của bạn: nếu cần laptop văn phòng, Dell, HP, Lenovo là lựa chọn phù hợp, còn nếu chơi game, bạn có thể tham khảo các dòng như Asus ROG hoặc MSI.",
+                "Các dòng laptop như Dell, HP, Asus đều có thiết kế đẹp mắt, hiệu suất ổn định và phù hợp với công việc văn phòng hoặc học tập.",
+                "Laptop chơi game thì nên chọn các dòng như Asus ROG, MSI, trong khi nếu bạn cần laptop văn phòng, các dòng Dell, HP, Lenovo sẽ là sự lựa chọn lý tưởng.",
+                "Nếu bạn cần laptop nhẹ nhàng và hiệu năng ổn định cho công việc hàng ngày, các dòng như Dell Inspiron, HP Pavilion hay Lenovo IdeaPad sẽ là những lựa chọn hợp lý."
+            ]
+        },
+        {
+            "tag": "laptop_choigame",
+            "patterns": [
+                "Tôi muốn biết thông tin về laptop chơi game",
+                "Laptop chơi game nào tốt?",
+                "Tư vấn giúp tôi chọn laptop chơi game",
+                "Laptop chơi game nào đáng mua?"
+            ],
+            "responses": [
+                "Hiện tại có nhiều mẫu laptop chơi game tốt, bạn có thể tham khảo các dòng như: Asus ROG, Lenovo Legion, MSI Gaming.",
+                "Các dòng laptop chơi game nổi bật bao gồm Asus ROG, Lenovo Legion, MSI Gaming với hiệu năng cao.",
+                "Laptop Asus ROG, Lenovo Legion, MSI Gaming là những lựa chọn phổ biến cho game thủ.",
+                "Laptop Asus ROG, Lenovo Legion, MSI Gaming có cấu hình mạnh, phù hợp để chơi các game nặng.",
+                "Asus ROG, Lenovo Legion, MSI Gaming là những thương hiệu laptop chơi game được đánh giá cao về hiệu năng và thiết kế."
+            ]
+        },
+        {
+            "tag": "laptop_choigame_gia",
+            "patterns": [
+                "Cho tôi biết về laptop chơi game thường có giá bao nhiêu",
+                "Giá của laptop chơi game là bao nhiêu"
+            ],
+            "responses": [
+                "Giá laptop chơi game thường dao động từ 20 đến 45 triệu đồng, tùy vào cấu hình và thương hiệu.",
+                "Laptop chơi game thường có giá cao hơn laptop văn phòng, thường bắt đầu từ 20 triệu và có thể trên 100 triệu.",
+                "Laptop chơi game cơ bản có giá từ 20-30 triệu, trong khi các dòng cao cấp thường trên 50 triệu.",
+                "Giá laptop chơi game phổ biến nằm trong khoảng 20 đến 50 triệu, các dòng cao cấp hơn có thể trên 100 triệu.",
+                "Laptop chơi game giá rẻ từ 20 triệu, tầm trung khoảng 30-50 triệu, và cao cấp có thể hơn 100 triệu."
+            ]
+        },
+        {
+            "tag": "laptop_vanphong",
+            "patterns": [
+                "Tôi muốn biết thông tin về laptop văn phòng",
+                "Laptop văn phòng nào tốt?",
+                "Tư vấn giúp tôi chọn laptop văn phòng",
+                "Laptop văn phòng nào đáng mua?"
+            ],
+            "responses": [
+                "Hiện tại có nhiều mẫu laptop văn phòng tốt, bạn có thể tham khảo các dòng như: Dell, HP, Lenovo.",
+                "Các dòng laptop văn phòng tốt bao gồm Dell, HP, Lenovo với hiệu năng ổn định và độ bền cao.",
+                "Laptop Dell, HP, Lenovo là những lựa chọn phổ biến cho dân văn phòng.",
+                "Laptop Dell, HP, Lenovo có thiết kế gọn nhẹ, pin lâu, phù hợp cho công việc văn phòng.",
+                "Dell, HP, Lenovo là những thương hiệu laptop văn phòng đáng tin cậy với nhiều mẫu mã để lựa chọn."
+            ]
+        },
+        {
+            "tag": "laptop_vanphong_gia",
+            "patterns": [
+                "Cho tôi biết về laptop văn phòng thường có giá bao nhiêu",
+                "Giá của laptop văn phòng là bao nhiêu"
+            ],
+            "responses": [
+                "Giá laptop văn phòng thường dao động từ 10 đến 25 triệu đồng, tùy vào cấu hình và thương hiệu.",
+                "Laptop văn phòng có giá hợp lý, từ 10 triệu cho các mẫu cơ bản đến 25 triệu với dòng cao cấp.",
+                "Laptop văn phòng thường có giá từ 10 đến 20 triệu, phù hợp cho công việc nhẹ nhàng.",
+                "Các dòng laptop văn phòng cơ bản giá từ 10 triệu, dòng cao hơn khoảng 20-30 triệu.",
+                "Laptop văn phòng giá rẻ bắt đầu từ 10 triệu, các mẫu tốt hơn dao động khoảng 15-25 triệu."
+            ]
+        },
+        {
+            "tag": "laptop_asus",
+            "patterns": [
+                "Tôi muốn biết thông tin về laptop Asus",
+                "Laptop Asus nào tốt?",
+                "Tư vấn giúp tôi chọn laptop Asus",
+                "Laptop Asus nào đáng mua?"
+            ],
+            "responses": [
+                "Laptop Asus có nhiều dòng sản phẩm chất lượng như Vivobook, Zenbook và ROG, tùy vào nhu cầu sử dụng của bạn.",
+                "Các dòng laptop Asus phổ biến bao gồm Vivobook cho công việc văn phòng, Zenbook cho những ai cần thiết kế mỏng nhẹ, và ROG cho game thủ.",
+                "Nếu bạn tìm một laptop vừa mạnh mẽ vừa đẹp mắt, bạn có thể tham khảo dòng Zenbook hoặc ROG của Asus.",
+                "Asus cung cấp các dòng laptop với nhiều mức giá và cấu hình khác nhau, từ Vivobook cho người dùng phổ thông đến Zenbook và ROG cho người dùng cao cấp."
+            ]
+        },
+        {
+            "tag": "laptop_asus_gia",
+            "patterns": [
+                "Laptop Asus có giá bao nhiêu?",
+                "Giá của laptop Asus như thế nào?",
+                "Laptop Asus thường có mức giá thế nào?",
+                "Cho tôi biết giá các dòng laptop Asus",
+                "Laptop Asus giá rẻ có không?"
+            ],
+            "responses": [
+                "Giá laptop Asus dao động từ khoảng 10 triệu đồng đến hơn 50 triệu đồng tùy vào dòng sản phẩm và cấu hình.",
+                "Các dòng laptop Asus giá rẻ có thể từ 10-15 triệu, tầm trung từ 20-30 triệu và cao cấp từ 30 triệu trở lên.",
+                "Bạn có thể tìm các dòng Vivobook của Asus với giá hợp lý từ 10-20 triệu, trong khi Zenbook và ROG có giá cao hơn, từ 30 triệu trở lên.",
+                "Asus có nhiều mức giá khác nhau, phù hợp với các nhu cầu từ phổ thông đến chuyên nghiệp, giá dao động từ 10 triệu đến hơn 50 triệu."
+            ]
+        },
+        {
+            "tag": "laptop_asus_cauhinh",
+            "patterns": [
+                "Laptop Asus có cấu hình như thế nào?",
+                "Cấu hình của laptop Asus ra sao?",
+                "Tôi muốn biết cấu hình của laptop Asus",
+                "Laptop Asus có cấu hình mạnh không?",
+                "Các dòng laptop Asus có cấu hình gì đặc biệt?"
+            ],
+            "responses": [
+                "Laptop Asus có cấu hình đa dạng, từ chip Intel Core i3/i5/i7 đến AMD Ryzen, RAM từ 4GB đến 32GB, phù hợp với nhiều nhu cầu sử dụng.",
+                "Dòng ROG của Asus được trang bị cấu hình mạnh mẽ với GPU NVIDIA RTX, RAM 16GB trở lên, phù hợp cho gaming và các tác vụ đồ họa nặng.",
+                "Cấu hình của Asus Vivobook và Zenbook thường phù hợp với nhu cầu học tập và công việc văn phòng với chip Intel Core và ổ SSD tốc độ cao.",
+                "Các dòng laptop Asus như Vivobook và Zenbook đều hỗ trợ RAM từ 4GB đến 32GB, ổ SSD, mang đến hiệu năng tốt cho công việc và giải trí."
+            ]
+        },
+        {
+            "tag": "laptop_asus_khuyenmai",
+            "patterns": [
+                "Laptop Asus có khuyến mãi không?",
+                "Khuyến mãi của laptop Asus hiện nay là gì?",
+                "Mua laptop Asus có được giảm giá không?",
+                "Có chương trình khuyến mãi nào cho laptop Asus không?",
+                "Laptop Asus có ưu đãi gì không?"
+            ],
+            "responses": [
+                "Asus thường xuyên có các chương trình khuyến mãi giảm giá hoặc quà tặng đi kèm khi mua sản phẩm mới hoặc trong các dịp lễ.",
+                "Bạn có thể tham khảo các chương trình khuyến mãi của Asus tại các cửa hàng chính hãng hoặc trên các sàn thương mại điện tử.",
+                "Laptop Asus thường có ưu đãi đặc biệt trong các dịp lễ như giảm giá, trả góp 0% hoặc tặng quà kèm theo khi mua sản phẩm.",
+                "Bạn có thể được tặng các phụ kiện như chuột, balo, hoặc giảm giá khi mua laptop Asus trong các chương trình khuyến mãi."
+            ]
+        },
+        {
+            "tag": "laptop_rog",
+            "patterns": [
+                "Tôi muốn biết thông tin về laptop ROG",
+                "Laptop ROG nào tốt?",
+                "Tư vấn giúp tôi chọn laptop ROG",
+                "Laptop ROG nào đáng mua?"
+            ],
+            "responses": [
+                "Laptop ROG (Republic of Gamers) của Asus nổi bật với cấu hình mạnh mẽ, được thiết kế dành cho game thủ và những tác vụ đồ họa cao cấp.",
+                "Dòng laptop ROG được trang bị GPU NVIDIA RTX và CPU Intel Core i7/i9 hoặc AMD Ryzen 7/9, mang lại hiệu suất tuyệt vời cho game và các ứng dụng nặng.",
+                "ROG cung cấp các dòng laptop như Strix và Zephyrus với thiết kế mạnh mẽ, màn hình tần số quét cao, rất phù hợp cho chơi game chuyên nghiệp.",
+                "Bạn có thể chọn laptop ROG như Strix hoặc Zephyrus với cấu hình cực kỳ mạnh mẽ, hiệu suất vượt trội cho mọi trò chơi và công việc sáng tạo."
+            ]
+        },
+        {
+            "tag": "laptop_rog_gia",
+            "patterns": [
+                "Laptop ROG có giá bao nhiêu?",
+                "Giá của laptop ROG như thế nào?",
+                "Laptop ROG thường có mức giá thế nào?",
+                "Cho tôi biết giá các dòng laptop ROG",
+                "Laptop ROG giá rẻ có không?"
+            ],
+            "responses": [
+                "Giá laptop ROG dao động từ khoảng 30 triệu đến hơn 70 triệu đồng, tùy vào cấu hình và dòng sản phẩm.",
+                "Các dòng laptop ROG như Strix và Zephyrus có giá từ 30 triệu cho đến hơn 70 triệu, tùy thuộc vào cấu hình và tính năng.",
+                "Laptop ROG có giá khá cao vì cấu hình mạnh mẽ, thường từ 30 triệu trở lên, nhưng cũng có các dòng giá thấp hơn từ 20 triệu cho các mẫu cơ bản.",
+                "Laptop ROG có nhiều mức giá, từ 30 triệu cho dòng Strix đến hơn 70 triệu cho dòng Zephyrus với cấu hình cực mạnh."
+            ]
+        },
+        {
+            "tag": "laptop_rog_cauhinh",
+            "patterns": [
+                "Laptop ROG có cấu hình như thế nào?",
+                "Cấu hình của laptop ROG ra sao?",
+                "Tôi muốn biết cấu hình của laptop ROG",
+                "Laptop ROG có cấu hình mạnh không?",
+                "Các dòng laptop ROG có cấu hình gì đặc biệt?"
+            ],
+            "responses": [
+                "Laptop ROG có cấu hình cực mạnh với GPU NVIDIA RTX, CPU Intel Core i7/i9 hoặc AMD Ryzen 7/9, RAM từ 16GB đến 64GB, và ổ SSD NVMe tốc độ cao.",
+                "Dòng ROG Strix và Zephyrus thường được trang bị GPU NVIDIA GeForce RTX 3060/3070/3080, RAM từ 16GB đến 64GB và màn hình tần số quét cao 144Hz hoặc 240Hz.",
+                "Laptop ROG được trang bị các cấu hình mạnh mẽ với GPU NVIDIA RTX, RAM tối thiểu 16GB, và ổ SSD NVMe, hỗ trợ tốt cho gaming và các tác vụ đồ họa nặng.",
+                "Các dòng laptop ROG đều có thiết kế tản nhiệt tốt và màn hình tốc độ quét cao, mang đến hiệu suất chơi game mượt mà và ổn định."
+            ]
+        },
+        {
+            "tag": "laptop_rog_khuyenmai",
+            "patterns": [
+                "Laptop ROG có khuyến mãi không?",
+                "Khuyến mãi của laptop ROG hiện nay là gì?",
+                "Mua laptop ROG có được giảm giá không?",
+                "Có chương trình khuyến mãi nào cho laptop ROG không?",
+                "Laptop ROG có ưu đãi gì không?"
+            ],
+            "responses": [
+                "Asus thường xuyên có các chương trình khuyến mãi cho dòng laptop ROG như giảm giá, quà tặng kèm hoặc trả góp 0%.",
+                "Trong các dịp lễ hoặc khi ra mắt sản phẩm mới, Asus thường có các chương trình ưu đãi giảm giá hoặc tặng quà cho các dòng laptop ROG.",
+                "Bạn có thể nhận được các ưu đãi đặc biệt khi mua laptop ROG, như giảm giá, quà tặng kèm hoặc hỗ trợ trả góp 0%.",
+                "Hãy theo dõi các chương trình khuyến mãi của Asus để nhận các ưu đãi hấp dẫn khi mua laptop ROG trong các dịp đặc biệt."
+            ]
+        },
+        {
+            "tag": "laptop_lenovo_legion",
+            "patterns": [
+                "Tôi muốn biết thông tin về laptop Lenovo Legion",
+                "Laptop Lenovo Legion nào tốt?",
+                "Tư vấn giúp tôi chọn laptop Lenovo Legion",
+                "Laptop Lenovo Legion nào đáng mua?"
+            ],
+            "responses": [
+                "Laptop Lenovo Legion là dòng laptop gaming mạnh mẽ với hiệu suất cao, thiết kế hiện đại và độ bền cao, phù hợp cho các game thủ và người dùng cần cấu hình mạnh.",
+                "Lenovo Legion cung cấp các laptop gaming với cấu hình cực kỳ mạnh mẽ, hiệu suất ổn định và hệ thống làm mát tốt, đáp ứng nhu cầu chơi game và các tác vụ nặng.",
+                "Các dòng Lenovo Legion đều được trang bị cấu hình mạnh mẽ với card đồ họa NVIDIA và CPU Intel Core i7 hoặc AMD Ryzen 7, phù hợp cho gaming và công việc sáng tạo.",
+                "Laptop Lenovo Legion sở hữu màn hình tần số quét cao, hệ thống tản nhiệt hiệu quả, và thiết kế tinh tế, là lựa chọn tuyệt vời cho game thủ chuyên nghiệp.",
+                "Lenovo Legion là một lựa chọn hoàn hảo cho những ai tìm kiếm laptop gaming với hiệu năng vượt trội và khả năng chạy các trò chơi AAA ở chất lượng cao."
+            ]
+        },
+        {
+            "tag": "laptop_lenovo_legion_gia",
+            "patterns": [
+                "Laptop Lenovo Legion có giá bao nhiêu?",
+                "Giá của laptop Lenovo Legion như thế nào?",
+                "Laptop Lenovo Legion thường có mức giá thế nào?",
+                "Cho tôi biết giá các dòng laptop Lenovo Legion",
+                "Laptop Lenovo Legion giá rẻ có không?"
+            ],
+            "responses": [
+                "Giá laptop Lenovo Legion dao động từ 20 triệu đến hơn 50 triệu đồng, tùy vào cấu hình và dòng sản phẩm.",
+                "Laptop Lenovo Legion có mức giá từ khoảng 20 triệu cho các cấu hình cơ bản đến hơn 50 triệu cho các cấu hình cao cấp với GPU mạnh mẽ.",
+                "Các dòng laptop Lenovo Legion thường có giá từ 20 triệu đến 50 triệu đồng, tùy thuộc vào cấu hình và các tính năng như GPU NVIDIA GTX/RTX.",
+                "Lenovo Legion có nhiều mức giá từ các dòng laptop gaming tầm trung từ 20 triệu đến các mẫu cao cấp có thể lên tới hơn 50 triệu đồng."
+            ]
+        },
+        {
+            "tag": "laptop_lenovo_legion_cauhinh",
+            "patterns": [
+                "Laptop Lenovo Legion có cấu hình như thế nào?",
+                "Cấu hình của laptop Lenovo Legion ra sao?",
+                "Tôi muốn biết cấu hình của laptop Lenovo Legion",
+                "Laptop Lenovo Legion có cấu hình mạnh không?",
+                "Các dòng laptop Lenovo Legion có cấu hình gì đặc biệt?"
+            ],
+            "responses": [
+                "Laptop Lenovo Legion được trang bị cấu hình mạnh mẽ với CPU Intel Core i7 hoặc AMD Ryzen 7, GPU NVIDIA GTX/RTX, RAM từ 16GB đến 32GB, giúp chạy mượt mà các game nặng.",
+                "Lenovo Legion có các dòng laptop với CPU Intel Core i7, AMD Ryzen 7, và GPU NVIDIA RTX 3060/3070/3080, đáp ứng tốt cho các game AAA và công việc sáng tạo.",
+                "Cấu hình của Lenovo Legion rất mạnh mẽ, với GPU NVIDIA GTX/RTX, bộ vi xử lý Intel hoặc AMD, và bộ nhớ RAM lên đến 32GB, giúp xử lý mượt mà các tác vụ nặng.",
+                "Laptop Lenovo Legion có cấu hình cao với bộ vi xử lý mạnh, card đồ họa NVIDIA RTX, màn hình tần số quét cao từ 120Hz trở lên, phù hợp cho gaming và công việc đòi hỏi hiệu suất cao."
+            ]
+        },
+        {
+            "tag": "laptop_lenovo_legion_khuyenmai",
+            "patterns": [
+                "Laptop Lenovo Legion có khuyến mãi không?",
+                "Khuyến mãi của laptop Lenovo Legion hiện nay là gì?",
+                "Mua laptop Lenovo Legion có được giảm giá không?",
+                "Có chương trình khuyến mãi nào cho laptop Lenovo Legion không?",
+                "Laptop Lenovo Legion có ưu đãi gì không?"
+            ],
+            "responses": [
+                "Lenovo Legion thường xuyên có các chương trình khuyến mãi đặc biệt, bao gồm giảm giá, quà tặng kèm hoặc trả góp 0% cho các dòng laptop gaming.",
+                "Bạn có thể nhận được các chương trình khuyến mãi như giảm giá hoặc quà tặng khi mua laptop Lenovo Legion trong các dịp lễ hoặc khi ra mắt sản phẩm mới.",
+                "Các chương trình khuyến mãi của Lenovo Legion thường có giảm giá hấp dẫn, kèm theo quà tặng như chuột, balo hoặc tai nghe cho game thủ.",
+                "Hãy theo dõi các chương trình khuyến mãi từ Lenovo Legion tại các cửa hàng chính thức hoặc trên các sàn thương mại điện tử để cập nhật ưu đãi mới nhất."
+            ]
+        },
+        {
+            "tag": "laptop_msi",
+            "patterns": [
+                "Tôi muốn biết thông tin về laptop MSI",
+                "Laptop MSI nào tốt?",
+                "Tư vấn giúp tôi chọn laptop MSI",
+                "Laptop MSI nào đáng mua?"
+            ],
+            "responses": [
+                "Laptop MSI nổi bật với các dòng gaming mạnh mẽ như GE, GS, và GF. Các sản phẩm này đều được trang bị cấu hình cao, thiết kế đẹp và tản nhiệt hiệu quả.",
+                "MSI là một thương hiệu nổi bật trong lĩnh vực laptop gaming, cung cấp các dòng laptop như GE, GS, và GF, phù hợp cho game thủ và người làm việc sáng tạo.",
+                "Laptop MSI được đánh giá cao về hiệu năng, với card đồ họa NVIDIA GTX/RTX, CPU Intel Core i7/i9 và AMD Ryzen, đáp ứng tốt các nhu cầu chơi game và làm việc chuyên nghiệp.",
+                "MSI chuyên cung cấp các dòng laptop gaming với cấu hình mạnh mẽ, thiết kế nổi bật và hệ thống tản nhiệt tiên tiến, phù hợp cho các game thủ chuyên nghiệp.",
+                "MSI có nhiều dòng sản phẩm laptop như GE, GS, GF và GL, giúp bạn chọn lựa phù hợp với nhu cầu gaming và công việc đòi hỏi hiệu suất cao."
+            ]
+        },
+        {
+            "tag": "laptop_msi_gia",
+            "patterns": [
+                "Laptop MSI có giá bao nhiêu?",
+                "Giá của laptop MSI như thế nào?",
+                "Laptop MSI thường có mức giá thế nào?",
+                "Cho tôi biết giá các dòng laptop MSI",
+                "Laptop MSI giá rẻ có không?"
+            ],
+            "responses": [
+                "Giá laptop MSI dao động từ 20 triệu đến hơn 50 triệu đồng, tùy vào dòng sản phẩm và cấu hình.",
+                "Các dòng laptop MSI gaming có giá từ 20 triệu đến 50 triệu đồng, tùy thuộc vào các cấu hình và tính năng như GPU NVIDIA RTX hoặc CPU Intel Core i7.",
+                "Laptop MSI thường có mức giá từ khoảng 20 triệu đến 50 triệu đồng, với các dòng cao cấp có thể lên tới hơn 50 triệu đồng.",
+                "Các dòng MSI như GE, GS, và GF có giá từ 20 triệu đồng trở lên, phù hợp cho nhu cầu chơi game hoặc công việc đòi hỏi cấu hình mạnh.",
+                "Laptop MSI giá hợp lý có thể tìm thấy từ 20 triệu đồng, với các dòng gaming chuyên nghiệp có giá từ 30 triệu đến 50 triệu đồng."
+            ]
+        },
+        {
+            "tag": "laptop_msi_cauhinh",
+            "patterns": [
+                "Laptop MSI có cấu hình như thế nào?",
+                "Cấu hình của laptop MSI ra sao?",
+                "Tôi muốn biết cấu hình của laptop MSI",
+                "Laptop MSI có cấu hình mạnh không?",
+                "Các dòng laptop MSI có cấu hình gì đặc biệt?"
+            ],
+            "responses": [
+                "Laptop MSI được trang bị cấu hình mạnh mẽ, với CPU Intel Core i7/i9 hoặc AMD Ryzen, GPU NVIDIA RTX, RAM từ 16GB đến 32GB và ổ SSD tốc độ cao.",
+                "MSI có các dòng laptop gaming với cấu hình cực kỳ mạnh mẽ, bao gồm CPU Intel Core i7, GPU NVIDIA RTX và RAM lên đến 32GB, đáp ứng tốt cho các game AAA.",
+                "Các laptop MSI như GE, GS, và GF đều được trang bị bộ vi xử lý Intel Core i7/i9, GPU NVIDIA RTX 2060/3070, và bộ nhớ RAM từ 16GB đến 32GB, lý tưởng cho gaming và công việc sáng tạo.",
+                "Laptop MSI hỗ trợ cấu hình cao, với các lựa chọn GPU NVIDIA RTX 2060/3070 và bộ vi xử lý Intel Core i7/i9, phù hợp với nhu cầu làm việc sáng tạo và chơi game nặng."
+            ]
+        },
+        {
+            "tag": "laptop_msi_khuyenmai",
+            "patterns": [
+                "Laptop MSI có khuyến mãi không?",
+                "Khuyến mãi của laptop MSI hiện nay là gì?",
+                "Mua laptop MSI có được giảm giá không?",
+                "Có chương trình khuyến mãi nào cho laptop MSI không?",
+                "Laptop MSI có ưu đãi gì không?"
+            ],
+            "responses": [
+                "MSI thường xuyên có các chương trình khuyến mãi đặc biệt, giảm giá trực tiếp hoặc tặng quà như chuột gaming, balo khi mua laptop.",
+                "Bạn có thể nhận được các chương trình khuyến mãi khi mua laptop MSI tại các cửa hàng chính hãng hoặc các sàn thương mại điện tử như Lazada, Shopee.",
+                "Laptop MSI có thể được giảm giá trong các chương trình khuyến mãi đặc biệt, thường xuyên có ưu đãi quà tặng như chuột gaming, balo hoặc trả góp 0%.",
+                "Hãy kiểm tra các chương trình khuyến mãi của MSI tại các cửa hàng chính thức hoặc trên các sàn thương mại điện tử để cập nhật các ưu đãi mới nhất.",
+                "MSI có các chương trình ưu đãi, khuyến mãi và giảm giá theo dịp lễ hoặc khi ra mắt sản phẩm mới. Bạn có thể theo dõi các thông tin từ đại lý chính thức."
+            ]
+        },
+        {
+            "tag": "laptop_hp",
+            "patterns": [
+                "Tôi muốn biết thông tin về laptop HP",
+                "Laptop HP nào tốt?",
+                "Tư vấn giúp tôi chọn laptop HP",
+                "Laptop HP nào đáng mua?"
+            ],
+            "responses": [
+                "Laptop HP nổi bật với các dòng như HP Pavilion, HP Envy, HP Spectre, HP Omen. Mỗi dòng đều có thiết kế đẹp, cấu hình mạnh mẽ và phù hợp với nhiều nhu cầu sử dụng.",
+                "HP cung cấp nhiều dòng laptop phù hợp với nhu cầu công việc và giải trí như Pavilion cho công việc văn phòng, Envy và Spectre cho người dùng cao cấp, và Omen cho game thủ.",
+                "Laptop HP là sự kết hợp hoàn hảo giữa thiết kế và hiệu suất, với các dòng như Pavilion, Envy và Omen phục vụ nhu cầu từ cơ bản đến cao cấp.",
+                "Laptop HP có nhiều sự lựa chọn cho bạn từ dòng Pavilion cho công việc văn phòng đến HP Spectre và Omen dành cho nhu cầu giải trí và chơi game.",
+                "HP nổi bật với các dòng Pavilion, Envy, Spectre và Omen, phù hợp với mọi đối tượng từ học sinh, sinh viên đến những người dùng chuyên nghiệp và game thủ."
+            ]
+        },
+        {
+            "tag": "laptop_hp_gia",
+            "patterns": [
+                "Laptop HP có giá bao nhiêu?",
+                "Giá của laptop HP như thế nào?",
+                "Laptop HP thường có mức giá thế nào?",
+                "Cho tôi biết giá các dòng laptop HP",
+                "Laptop HP giá rẻ có không?"
+            ],
+            "responses": [
+                "Giá laptop HP dao động từ 10 triệu đến hơn 50 triệu đồng, tùy vào dòng sản phẩm và cấu hình.",
+                "Các dòng laptop HP như Pavilion có giá từ 10 triệu đến 20 triệu đồng, Envy và Spectre từ 20 triệu đến 40 triệu, còn Omen có thể trên 40 triệu.",
+                "Laptop HP Pavilion có giá từ 10 triệu đồng, dòng Envy và Spectre có thể dao động từ 20 triệu đến 40 triệu, trong khi Omen thường có giá từ 30 triệu trở lên.",
+                "HP cung cấp các dòng sản phẩm với nhiều mức giá từ khoảng 10 triệu đồng cho dòng Pavilion, đến 40 triệu đồng cho Envy, và trên 40 triệu cho Omen.",
+                "Laptop HP có các mức giá từ 10 triệu đồng cho các dòng cơ bản như Pavilion, đến hơn 40 triệu cho các dòng cao cấp như Spectre và Omen."
+            ]
+        },
+        {
+            "tag": "laptop_hp_cauhinh",
+            "patterns": [
+                "Laptop HP có cấu hình như thế nào?",
+                "Cấu hình của laptop HP ra sao?",
+                "Tôi muốn biết cấu hình của laptop HP",
+                "Laptop HP có cấu hình mạnh không?",
+                "Các dòng laptop HP có cấu hình gì đặc biệt?"
+            ],
+            "responses": [
+                "Laptop HP có cấu hình đa dạng, từ chip Intel Core i3, i5, i7 đến AMD Ryzen, với RAM từ 4GB đến 16GB và ổ SSD giúp cải thiện hiệu suất làm việc.",
+                "Laptop HP Omen được trang bị cấu hình mạnh mẽ với CPU Intel Core i7/i9 hoặc AMD Ryzen 7/9, GPU NVIDIA GTX/RTX, và RAM 16GB trở lên, phù hợp cho gaming.",
+                "Các dòng Pavilion, Envy và Spectre thường có cấu hình vừa phải, với chip Intel Core i5/i7 và RAM từ 8GB đến 16GB, đáp ứng tốt cho công việc văn phòng và giải trí.",
+                "Laptop HP Omen chuyên cho gaming có cấu hình mạnh với CPU Intel Core i7/i9, GPU NVIDIA RTX và bộ nhớ RAM từ 16GB đến 32GB.",
+                "HP cung cấp các tùy chọn cấu hình từ cơ bản với Intel Core i3, i5, đến các cấu hình cao cấp với Intel Core i7/i9, AMD Ryzen và GPU NVIDIA RTX."
+            ]
+        },
+        {
+            "tag": "laptop_hp_khuyenmai",
+            "patterns": [
+                "Laptop HP có khuyến mãi không?",
+                "Khuyến mãi của laptop HP hiện nay là gì?",
+                "Mua laptop HP có được giảm giá không?",
+                "Có chương trình khuyến mãi nào cho laptop HP không?",
+                "Laptop HP có ưu đãi gì không?"
+            ],
+            "responses": [
+                "HP thường xuyên có các chương trình khuyến mãi và giảm giá tại các cửa hàng chính hãng và các sàn thương mại điện tử.",
+                "Bạn có thể nhận được các ưu đãi như quà tặng kèm khi mua laptop HP hoặc giảm giá trực tiếp trong các chương trình khuyến mãi đặc biệt.",
+                "HP cung cấp các chương trình khuyến mãi, giảm giá cho các dòng laptop Pavilion, Envy và Omen trong các dịp lễ hoặc khi ra mắt sản phẩm mới.",
+                "Hãy kiểm tra các chương trình khuyến mãi của HP tại các đại lý chính thức hoặc các sàn thương mại điện tử để cập nhật ưu đãi mới nhất.",
+                "Laptop HP thường có các chương trình khuyến mãi hấp dẫn như giảm giá, trả góp 0%, hoặc tặng kèm các phụ kiện khi mua sản phẩm."
+            ]
+        },
+        {
+            "tag": "laptop_dell",
+            "patterns": [
+                "Tôi muốn biết thông tin về laptop Dell",
+                "Laptop Dell nào tốt?",
+                "Tư vấn giúp tôi chọn laptop Dell",
+                "Laptop Dell nào đáng mua?"
+            ],
+            "responses": [
+                "Laptop Dell nổi bật với các dòng như XPS, Inspiron, Alienware, và Latitude. Mỗi dòng đều có thiết kế đẹp, hiệu suất mạnh mẽ và độ bền cao.",
+                "Dell cung cấp nhiều lựa chọn laptop chất lượng, từ dòng Inspiron phù hợp cho học tập và công việc, đến Alienware dành cho game thủ và XPS cho người dùng cao cấp.",
+                "Các dòng laptop Dell như XPS, Inspiron và Alienware đều đáng mua với cấu hình mạnh mẽ, thiết kế sang trọng và độ bền cao.",
+                "Laptop Dell có nhiều sự lựa chọn cho bạn từ dòng Inspiron cho công việc và học tập, đến Alienware và XPS dành cho game thủ và người dùng cao cấp.",
+                "Dell nổi bật với các dòng XPS, Inspiron, Latitude và Alienware, đáp ứng nhu cầu từ cơ bản đến chuyên nghiệp, chơi game hay làm việc văn phòng."
+            ]
+        },
+        {
+            "tag": "laptop_dell_gia",
+            "patterns": [
+                "Laptop Dell có giá bao nhiêu?",
+                "Giá của laptop Dell như thế nào?",
+                "Laptop Dell thường có mức giá thế nào?",
+                "Cho tôi biết giá các dòng laptop Dell",
+                "Laptop Dell giá rẻ có không?"
+            ],
+            "responses": [
+                "Giá laptop Dell dao động từ 10 triệu đến hơn 50 triệu đồng, tùy vào dòng sản phẩm và cấu hình.",
+                "Các dòng laptop Dell như Inspiron có giá từ 10 triệu đến 20 triệu đồng, XPS và Latitude có thể từ 20 triệu đến 40 triệu, còn Alienware có thể trên 40 triệu.",
+                "Laptop Dell Inspiron có giá từ 10 triệu đồng, XPS từ 20 triệu đến 40 triệu, và Alienware có giá từ 40 triệu trở lên.",
+                "Dell cung cấp các dòng sản phẩm với nhiều mức giá từ khoảng 10 triệu đồng cho dòng Inspiron, đến 40 triệu đồng cho XPS, và trên 40 triệu cho Alienware.",
+                "Laptop Dell có các mức giá từ 10 triệu đồng cho các dòng cơ bản như Inspiron, đến hơn 40 triệu cho các dòng cao cấp như Alienware và XPS."
+            ]
+        },
+        {
+            "tag": "laptop_dell_cauhinh",
+            "patterns": [
+                "Laptop Dell có cấu hình như thế nào?",
+                "Cấu hình của laptop Dell ra sao?",
+                "Tôi muốn biết cấu hình của laptop Dell",
+                "Laptop Dell có cấu hình mạnh không?",
+                "Các dòng laptop Dell có cấu hình gì đặc biệt?"
+            ],
+            "responses": [
+                "Laptop Dell có cấu hình đa dạng, từ chip Intel Core i3, i5, i7 đến AMD Ryzen, với RAM từ 4GB đến 16GB và ổ SSD giúp cải thiện hiệu suất làm việc.",
+                "Dell Alienware được trang bị cấu hình mạnh mẽ với CPU Intel Core i7/i9 hoặc AMD Ryzen 7/9, GPU NVIDIA GTX/RTX, và RAM từ 16GB trở lên, phù hợp cho gaming.",
+                "Các dòng Inspiron và Latitude thường có cấu hình vừa phải, với chip Intel Core i5/i7 và RAM từ 8GB đến 16GB, đáp ứng tốt cho công việc văn phòng và học tập.",
+                "Laptop Dell Alienware chuyên cho gaming có cấu hình mạnh với CPU Intel Core i7/i9, GPU NVIDIA RTX và bộ nhớ RAM từ 16GB đến 32GB.",
+                "Dell cung cấp các tùy chọn cấu hình từ cơ bản với Intel Core i3, i5, đến các cấu hình cao cấp với Intel Core i7/i9, AMD Ryzen và GPU NVIDIA RTX."
+            ]
+        },
+        {
+            "tag": "laptop_dell_khuyenmai",
+            "patterns": [
+                "Laptop Dell có khuyến mãi không?",
+                "Khuyến mãi của laptop Dell hiện nay là gì?",
+                "Mua laptop Dell có được giảm giá không?",
+                "Có chương trình khuyến mãi nào cho laptop Dell không?",
+                "Laptop Dell có ưu đãi gì không?"
+            ],
+            "responses": [
+                "Dell thường xuyên có các chương trình khuyến mãi và giảm giá tại các cửa hàng chính hãng và các sàn thương mại điện tử.",
+                "Bạn có thể nhận được các ưu đãi như quà tặng kèm khi mua laptop Dell hoặc giảm giá trực tiếp trong các chương trình khuyến mãi đặc biệt.",
+                "Dell cung cấp các chương trình khuyến mãi, giảm giá cho các dòng laptop Inspiron, XPS và Alienware trong các dịp lễ hoặc khi ra mắt sản phẩm mới.",
+                "Hãy kiểm tra các chương trình khuyến mãi của Dell tại các đại lý chính thức hoặc các sàn thương mại điện tử để cập nhật ưu đãi mới nhất.",
+                "Laptop Dell thường có các chương trình khuyến mãi hấp dẫn như giảm giá, trả góp 0%, hoặc tặng kèm các phụ kiện khi mua sản phẩm."
+            ]
+        },
+        {
+            "tag": "khuyen_mai_sinh_vien",
+            "patterns": [
+                "Laptop có khuyến mãi cho sinh viên không?",
+                "Khuyến mãi sinh viên cho laptop là gì?",
+                "Tôi là sinh viên, có ưu đãi gì khi mua laptop không?",
+                "Sinh viên có được giảm giá khi mua laptop không?",
+                "Chương trình khuyến mãi cho sinh viên là gì?"
+            ],
+            "responses": [
+                "Nhiều thương hiệu laptop như Dell, Asus, HP, và Lenovo đều có chương trình khuyến mãi đặc biệt cho sinh viên, bao gồm giảm giá trực tiếp, quà tặng hoặc các chương trình trả góp 0%.",
+                "Sinh viên thường được hưởng các chương trình giảm giá đặc biệt khi mua laptop từ các đại lý chính thức hoặc trên các sàn thương mại điện tử.",
+                "Các thương hiệu laptop thường xuyên tổ chức khuyến mãi dành riêng cho sinh viên, bao gồm mức giảm giá từ 5% đến 20%, hoặc các ưu đãi về phụ kiện đi kèm.",
+                "Nếu bạn là sinh viên, bạn có thể nhận được mức giá ưu đãi, hoặc các quà tặng như chuột, balo khi mua laptop từ các cửa hàng hoặc sàn thương mại điện tử.",
+                "Hãy kiểm tra các chương trình khuyến mãi dành cho sinh viên từ các cửa hàng hoặc đại lý chính thức của các thương hiệu laptop để nhận được ưu đãi đặc biệt."
+            ]
+        },
+        {
+            "tag": "vi_tri_cua_hang_mua_laptop",
+            "patterns": [
+                "Cửa hàng nào bán laptop tốt?",
+                "Mua laptop ở đâu uy tín?",
+                "Tôi muốn biết địa chỉ cửa hàng bán laptop",
+                "Cửa hàng laptop gần tôi là ở đâu?",
+                "Địa chỉ cửa hàng laptop uy tín là gì?"
+            ],
+            "responses": [
+                "Bạn có thể tìm các cửa hàng bán laptop chính hãng tại các trung tâm thương mại lớn như Vincom, Lotte, hoặc các hệ thống cửa hàng điện máy như Thế Giới Di Động, FPT Shop.",
+                "Nếu bạn muốn mua laptop chính hãng, bạn có thể đến các đại lý chính thức của Asus, Dell, HP, Lenovo hoặc các sàn thương mại điện tử như Tiki, Lazada, Shopee.",
+                "Các cửa hàng như Thế Giới Di Động, FPT Shop, và Nguyễn Kim là các địa chỉ uy tín để bạn tham khảo và mua laptop.",
+                "Bạn có thể mua laptop tại các cửa hàng chính hãng của các thương hiệu như Dell, Asus, HP tại các trung tâm điện máy hoặc các cửa hàng trực tuyến uy tín.",
+                "Để mua laptop chính hãng, bạn có thể đến các đại lý như FPT Shop, Thế Giới Di Động hoặc các cửa hàng trực tuyến như Lazada, Tiki."
+            ]
+        }        
+        
+    ]
+}

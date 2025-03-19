@@ -1,0 +1,127 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Xin chào",
+                "Chào bạn"
+            ],
+            "responses": [
+                "Chào bạn!",
+                "Xin chào!",
+                "Chào mừng bạn đến với chatbot!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Tạm biệt",
+                "Hẹn gặp lại",
+                "Goodbye"
+            ],
+            "responses": [
+                "Tạm biệt! Hẹn gặp lại bạn sau!",
+                "Chúc bạn một ngày tốt lành!",
+                "Hẹn gặp lại bạn!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Cảm ơn",
+                "Cảm ơn bạn",
+                "Thank you",
+                "Thanks"
+            ],
+            "responses": [
+                "Không có gì!",
+                "Rất vui được giúp bạn!",
+                "Bạn không cần phải cảm ơn đâu!"
+            ]
+        },
+        {
+            "tag": "laptop_info",
+            "patterns": [
+                
+                "Tư vấn giúp tôi chọn laptop",
+                "Laptop nào đáng mua?"
+            ],
+            "responses": ["Tôi muốn biết thông tin về laptop",
+                "Laptop nào tốt nhất?",
+                "Hiện tại có nhiều mẫu laptop tốt, bạn có thể tham khảo các dòng của Dell, HP, Lenovo hoặc MacBook.",
+                "Bạn cần laptop để làm việc hay chơi game? Tôi có thể tư vấn cụ thể hơn!",
+                "Laptop Dell, HP và MacBook là những lựa chọn tốt cho công việc văn phòng, còn laptop gaming có MSI và Alienware."
+            ]
+        },
+        {
+            "tag": "laptop_specific",
+            "patterns": [
+                "Cho tôi biết về laptop Dell XPS",
+                "Tôi muốn biết về MacBook Air",
+                "Laptop HP Pavilion có gì đặc biệt?"
+            ],
+            "responses": [
+                "Laptop Dell XPS nổi bật với thiết kế mỏng nhẹ và hiệu suất mạnh mẽ, rất phù hợp cho công việc và giải trí.",
+                "MacBook Air là một lựa chọn tuyệt vời cho những ai cần sự di động và hiệu suất tốt trong công việc văn phòng.",
+                "Laptop HP Pavilion thường có cấu hình tốt với giá thành hợp lý, rất phù hợp cho học sinh và sinh viên."
+            ]
+        },
+        {
+            "tag": "repair_service",
+            "patterns": [
+                "Tôi cần sửa laptop",
+                "Có dịch vụ sửa chữa laptop không?",
+                "Laptop của tôi bị hỏng",
+                "Ở đâu sửa laptop tốt?"
+            ],
+            "responses": [
+                "Bạn có thể đem laptop đến trung tâm bảo hành chính hãng hoặc các cửa hàng sửa chữa uy tín.",
+                "Tôi có thể giúp bạn tìm cửa hàng sửa chữa gần nhất. Bạn ở khu vực nào?",
+                "Bạn nên kiểm tra bảo hành của sản phẩm trước khi mang đi sửa."
+            ]
+        },
+        {
+            "tag": "price_inquiry",
+            "patterns": [
+                "Giá của laptop này là bao nhiêu?",
+                "Giá laptop Dell",
+                "MacBook giá bao nhiêu?",
+                "Laptop HP có đắt không?"
+            ],
+            "responses": [
+                "Giá laptop sẽ tùy thuộc vào cấu hình và thương hiệu. Bạn có thể kiểm tra giá cụ thể trên các trang thương mại điện tử.",
+                "Laptop Dell có giá từ khoảng 15 triệu đến hơn 40 triệu đồng, tùy dòng sản phẩm.",
+                "MacBook có giá từ 25 triệu đồng trở lên tùy theo cấu hình và mẫu."
+            ]
+        },
+        {
+            "tag": "technical_support",
+            "patterns": [
+                "Tôi gặp sự cố với laptop",
+                "Laptop của tôi không khởi động được",
+                "Có cách nào khôi phục lại laptop không?"
+            ],
+            "responses": [
+                "Bạn có thể thử khởi động lại máy tính hoặc kiểm tra xem pin có đủ không.",
+                "Nếu laptop không khởi động được, bạn nên kiểm tra dây nguồn và kết nối.",
+                "Nếu vấn đề vẫn tiếp diễn, hãy đem máy đến trung tâm sửa chữa gần nhất để được hỗ trợ."
+            ]
+        },
+        {
+            "tag": "promotions",
+            "patterns": [
+                "Có chương trình khuyến mãi nào không?",
+                "Tôi có thể nhận được giảm giá không?",
+                "Có ưu đãi nào cho khách hàng mới không?"
+            ],
+            "responses": [
+                "Hiện tại chúng tôi có chương trình giảm giá 10% cho khách hàng mới! Hãy kiểm tra trang web của chúng tôi để biết thêm chi tiết.",
+                "Chúng tôi thường xuyên có các chương trình khuyến mãi. Hãy theo dõi trang web để không bỏ lỡ!"
+            ]
+        }
+    ]
+}

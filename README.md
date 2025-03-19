@@ -1,4 +1,5 @@
 # ChatbotAsisstant
+
 Thực tập tốt nghiệp
 Học viện Hàng không Việt Nam
 
@@ -18,3 +19,13 @@ MSSV: 2254810037
 Họ tên: Võ Như Hoàng Huy
 MSSV: 2254810046
 #FITVAA: https://fitvaa.edu.vn/
+
+#Installation
+pip install -r requirements.txt
+or
+pip3 install -r requirements.txt
+
+#How to run the program
+py .\main.py
+or
+python3 .\main.py
