@@ -2,7 +2,6 @@ import numpy as np
 import pickle
 from tensorflow.keras.models import load_model
 import ssl
-from bson import ObjectId
 from flask import jsonify, Flask, request
 from flask_cors import CORS
 import nltk
@@ -12,7 +11,6 @@ from datetime import datetime
 import logging
 import os
 from pymongo import MongoClient
-# from bson.json_util import dumps
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 # load_dotenv()
